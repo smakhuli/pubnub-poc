@@ -15,7 +15,7 @@ Subscribes to my_channel, chat and chat2 channels. Sends to my_channel. Type mes
             '<br>' + box.innerHTML;
     }
 
-    // OPEN SOCKET TO RECEIVE TEXT MESSAGE
+    // OPEN SOCKET TO RECEIVE TEXT MESSAGE FROM CHANNELS
     PUBNUB.subscribe({
         channel : channel,
         message : chat_receive
